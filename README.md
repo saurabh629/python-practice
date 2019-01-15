@@ -7,6 +7,6 @@ palindrome.py 		: CHECK if the string is palindrome
 rotate_matrix90.py 	: rotate matrix by 90 degree anticlockwise  
 sorting-dict.py 	: sorting python dictionary by their values in 
                   	  ascending and descending order  
-combine_val_dict.py	: python program to combine values in python list of dictionaries
-linked_list_reverse.py  : python program to print a linked list in reverse order
+combine_val_dict.py	: python program to combine values in python list of dictionaries  
+linked_list_reverse.py  : python program to print a linked list in reverse order  
 

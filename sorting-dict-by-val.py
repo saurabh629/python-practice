@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
- sorting python dictionary by their values
+ sorting python dictionary by their values 
 '''
 
 def sort_dict_by_value_ascending(dict):

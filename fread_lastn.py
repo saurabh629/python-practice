@@ -13,7 +13,6 @@ def file_read_lines(fname,n):
     with open(fname) as f:
         #Content_list is the list that contains the read lines.     
         content_list = f.readlines()
-        #content_list.reverse()
     l = len(content_list)
     for item in range(l-n,l) :
         print content_list[item]

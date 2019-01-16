@@ -5,8 +5,8 @@ Adding different programs for python practice
 fread_lastn-2.py 	: read the last n lines from a file opened  
 palindrome.py 		: CHECK if the string is palindrome  
 rotate_matrix90.py 	: rotate matrix by 90 degree anticlockwise  
-sorting-dict.py 	: sorting python dictionary by their values in 
-                  	  ascending and descending order  
 combine_val_dict.py	: python program to combine values in python list of dictionaries  
 linked_list_reverse.py  : python program to print a linked list in reverse order  
+sorting-dict-by-key.py  : sorting python dictionary by their key in ascending/descending order
+sorting-dict-by-val.py  : sorting python dictionary by their value in ascending/descending order
 

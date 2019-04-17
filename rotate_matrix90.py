@@ -20,6 +20,6 @@ if __name__ == '__main__':
     x=rotate90_antic(arr)
     print x
     
-    arr=[[1,2,3],[4,5,6],[7,8,9]]]
+    arr=[[1,2,3],[4,5,6],[7,8,9]]
     x=rotate90_antic(arr)
     print x

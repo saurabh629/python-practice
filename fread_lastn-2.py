@@ -12,4 +12,4 @@ def read_lastn(str, n):
 if __name__ == '__main__':
     f=open('emails.log','r')
     n=2
-    print read_lastn(f.read(),n)
+    read_lastn(f.read(),n)

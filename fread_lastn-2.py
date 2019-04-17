@@ -4,9 +4,7 @@
 # read the last n lines from a file opened
 def read_lastn(str, n):
     k = str.split('\n')
-    k.pop()
     k.reverse()
-    print k
     for i in range(0,len(k)):
         if i<n:
             print k[i]

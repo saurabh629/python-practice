@@ -9,4 +9,4 @@ Adding different programs for python practice
 **linked_list_reverse.py**  : print a linked list in reverse order  
 **sorting-dict-by-key.py**  : sorting python dictionary by their key in ascending/descending order  
 **sorting-dict-by-val.py**  : sorting python dictionary by their value in ascending/descending order  
-
+**find-percentage.py**  : find the average marks of specific student from student_marks dictionary  

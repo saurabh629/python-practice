@@ -1,6 +1,13 @@
 #!/usr/bin/python
 '''
-Python program to combine values in python list of dictionaries.
+Python program to combine values of the same keys in python list of dictionaries.
+e.g. 
+    [{'item': 'item1', 'amount': 400}, 
+          {'item': 'item2', 'amount': 300}, 
+          {'item': 'item1', 'amount': 750},
+          {'item': 'item2', 'amount': 900}]
+          
+    result=[{'item2': 1200, 'item1': 1150}]
 '''
 
 from collections import Counter
@@ -12,10 +19,10 @@ def combine_values_dict(Data):
     return result
 
 def main():
-    Data=[{'item': 'item1', 'amount': 400}, 
-          {'item': 'item2', 'amount': 300}, 
-          {'item': 'item1', 'amount': 750},
-          {'item': 'item2', 'amount': 900}]
+    Data=[{'item': 'item1', 'amount': 3000}, 
+          {'item': 'item2', 'amount': 100}, 
+          {'item': 'item1', 'amount': 1000},
+          {'item': 'item2', 'amount': 100}]
     print combine_values_dict(Data)
 
 if __name__=='__main__':

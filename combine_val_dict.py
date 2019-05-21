@@ -19,10 +19,10 @@ def combine_values_dict(Data):
     return result
 
 def main():
-    Data=[{'item': 'item1', 'amount': 500}, 
-          {'item': 'item2', 'amount': 1100}, 
-          {'item': 'item1', 'amount': 500},
-          {'item': 'item2', 'amount': 900}]
+    Data=[{'item': 'item1', 'amount': 1000}, 
+          {'item': 'item2', 'amount': 100}, 
+          {'item': 'item1', 'amount': 1000},
+          {'item': 'item2', 'amount': 100}]
     print combine_values_dict(Data)
 
 if __name__=='__main__':

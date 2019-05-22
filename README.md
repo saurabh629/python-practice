@@ -11,4 +11,5 @@ Adding different programs for python practice
 **sorting-dict-by-val.py**  : sorting python dictionary by their value in ascending/descending order  
 **find-percentage.py**      : find the average marks of specific student from student_marks dictionary   
 **palindrome-substrings.py**: count palindrome substrings  
+**timeConversion.py**: convert input time in 24 hour format  
 

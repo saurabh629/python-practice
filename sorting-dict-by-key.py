@@ -7,11 +7,11 @@
 def sort_dict_by_key_ascending(dict):
     print ("Sorting the dict by key in ascending order")
     for key in sorted(dict.keys()):
-        print (f"{key}: {value}"))
+        print (f"{key}: {value}")
 def sort_dict_by_key_descending(dict):
     print ("Sorting the dict by key in descending order")
     for key in sorted(dict.keys(), reverse=True):
-        print ("{key}: {value}")
+        print (f"{key}: {value}")
 
 def main():
    my_dict = {'coins':7, 'pens':6, 'cups':5, 'bags':1, 'bottles':4, 'books':5}
